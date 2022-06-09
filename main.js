@@ -1,42 +1,41 @@
-const jsonServer = require('json-server')
+const jsonServer = require("json-server");
 
-const data = require('./db.js')
+const data = require("./db.js");
 
-const server = jsonServer.create()
-const router = jsonServer.router(data)
-const middlewares = jsonServer.defaults()
+const server = jsonServer.create();
+const router = jsonServer.router(data);
+const middlewares = jsonServer.defaults();
 
-const queryString = require('query-string')
+const queryString = require("query-string");
 
 // Set default middlewares (logger, static, cors and no-cache)
-server.use(middlewares)
+server.use(middlewares);
 
 // Add custom routes before JSON Server router
-server.get('/echo', (req, res) => {
-  res.jsonp(req.query)
-})
+server.get("/echo", (req, res) => {
+  res.jsonp(req.query);
+});
 
 // To handle POST, PUT and PATCH you need to use a body-parser
 // You can use the one used by JSON Server
-server.use(jsonServer.bodyParser)
+server.use(jsonServer.bodyParser);
 server.use((req, res, next) => {
-  if (req.method === 'POST') {
-    req.body.createdAt = Date.now()
-  } else if (req.method === 'PATCH') {
-    req.body.updatedAt = Date.now()
+  if (req.method === "POST") {
+    req.body.createdAt = Date.now();
+  } else if (req.method === "PATCH") {
+    req.body.updatedAt = Date.now();
   }
   // Continue to JSON Server router
-  next()
-})
-
+  next();
+});
 
 router.render = (req, res) => {
   // Check GET with pagination
   // If yes, custom output
   const headers = res.getHeaders();
 
-  const totalCountHeader = headers['x-total-count'];
-  if (req.method === 'GET' && totalCountHeader) {
+  const totalCountHeader = headers["x-total-count"];
+  if (req.method === "GET" && totalCountHeader) {
     const queryParams = queryString.parse(req._parsedUrl.query);
 
     const result = {
@@ -55,11 +54,9 @@ router.render = (req, res) => {
   res.jsonp(res.locals.data);
 };
 
-
-
 // Use default router
-server.use('/api', router);
+server.use("/api", router);
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
-  console.log('JSON Server is running')
-})
+  console.log("JSON Server is running");
+});
