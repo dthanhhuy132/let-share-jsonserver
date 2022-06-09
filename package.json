@@ -1,0 +1,21 @@
+{
+  "name": "huydt12-final-json-server",
+  "version": "1.0.0",
+  "description": "json server fot final project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js",
+    "start": "node main.js"
+  },
+  "author": "Huy Doan",
+  "license": "MIT",
+  "dependencies": {
+    "query-string": "^7.1.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "nodemon": "^2.0.16"
+  }
+  
+}
