@@ -26,7 +26,8 @@
     "comment": 7,
     "love": 7,
     "isReport": false,
-    "reportQuantity": 0
+    "reportQuantity": 0,
+    "category": ["khoanh-khac", "cuoc-song", "kiem-tien"]
   },
   {
     "id": "3",
@@ -40,7 +41,8 @@
     "comment": 7,
     "love": 0,
     "isReport": false,
-    "reportQuantity": 0
+    "reportQuantity": 0,
+    "category": ["khoanh-khac", "dong-vat", "kiem-tien", "vui-nhon"]
   },
   {
     "id": "4",
@@ -54,7 +56,8 @@
     "comment": 7,
     "love": 0,
     "isReport": false,
-    "reportQuantity": 0
+    "reportQuantity": 0,
+    "category": ["khoanh-khac", "cuoc-song", "kiem-tien", "vui-nhon"]
   },
   {
     "id": "5",
@@ -68,7 +71,8 @@
     "comment": 7,
     "love": 10,
     "isReport": false,
-    "reportQuantity": 0
+    "reportQuantity": 0,
+    "category": ["vui-nhon", "cuoc-song", "chia-se", "vui-nhon"]
   },
   {
     "id": "6",
@@ -82,7 +86,8 @@
     "comment": 7,
     "love": 7,
     "isReport": false,
-    "reportQuantity": 0
+    "reportQuantity": 0,
+    "category": ["vui-nhon", "cuoc-song", "khac", "vui-nhon"]
   },
   {
     "id": "7",
@@ -96,7 +101,8 @@
     "comment": 7,
     "love": 10,
     "isReport": false,
-    "reportQuantity": 0
+    "reportQuantity": 0,
+    "category": ["vui-nhon", "chia-se", "kiem-tien", "vui-nhon"]
   },
   {
     "id": "8",
@@ -110,6 +116,7 @@
     "comment": 7,
     "love": 7,
     "isReport": false,
-    "reportQuantity": 0
+    "reportQuantity": 0,
+    "category": ["vui-nhon", "kiem-tien", "cong-nghe", "chia-se"]
   }
 ]

@@ -5,17 +5,37 @@
   },
 
   {
-    "name": "Vui nhộn",
-    "slug": "vui-nhon"
+    "name": "Cuộc sống",
+    "slug": "cuoc-song"
   },
 
   {
-    "name": "Vui nhộn",
-    "slug": "vui-nhon"
+    "name": "Kiếm tiền",
+    "slug": "kiem-tien"
   },
 
   {
-    "name": "Vui nhộn",
-    "slug": "vui-nhon"
+    "name": "Công nghệ",
+    "slug": "cong-nghe"
+  },
+
+  {
+    "name": "Động vật",
+    "slug": "dong-vat"
+  },
+
+  {
+    "name": "Khoảnh khắc",
+    "slug": "khoanh-khac"
+  },
+
+  {
+    "name": "Chia sẻ",
+    "slug": "chia-se"
+  },
+
+  {
+    "name": "Khác",
+    "slug": "khac"
   }
 ]
