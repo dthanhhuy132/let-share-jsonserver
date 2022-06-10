@@ -11,7 +11,8 @@
     "comment": 7,
     "love": 10,
     "isReport": false,
-    "reportQuantity": 0
+    "reportQuantity": 0,
+    "category": ["Vui nhộn", "cuộc sống"]
   },
   {
     "id": "2",
