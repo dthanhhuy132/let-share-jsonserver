@@ -1,7 +1,18 @@
 [
   {
     "id": "1",
-    "commentParentId": 0,
+    "commentParentId": "0",
+    "postId": "1",
+    "userId": "1",
+    "content": "Ôi trường, mình chưa từng thấy bài viết nào tuyệt như thế này hết null á",
+    "imageBase64": "",
+    "imageLink": "https://i.bloganchoi.com/bloganchoi.com/wp-content/uploads/2020/10/meme-hai-huoc-moi-nhat-144.jpg?fit=400%2C20000&quality=95&ssl=1",
+    "isReport": false,
+    "reportQuantity": 0
+  },
+  {
+    "id": "2",
+    "commentParentId": "1",
     "postId": "1",
     "userId": "1",
     "content": "Ôi trường, mình chưa từng thấy bài viết nào tuyệt như thế này hết null á",
