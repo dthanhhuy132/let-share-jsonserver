@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "userName": "huydoan",
+    "username": "huydoan",
     "userFirstName": "Huy",
     "userLastName": "Đoàn",
     "userDescription": "Mạnh mẽ nhất vũ trụ",
@@ -16,7 +16,7 @@
   },
   {
     "id": "2",
-    "userName": "hoang",
+    "username": "hoang",
     "userFirstName": "A",
     "userLastName": "Hoàng",
     "userDescription": "Đứa con của muối",
@@ -30,7 +30,7 @@
   },
   {
     "id": "3",
-    "userName": "tuctuc",
+    "username": "tuctuc",
     "userFirstName": "A",
     "userLastName": "Zín",
     "isAdmin": false,
@@ -44,7 +44,7 @@
   },
   {
     "id": "4",
-    "userName": "phuphu",
+    "username": "phuphu",
     "userFirstName": "Phú",
     "userLastName": "Đồng Nai",
     "isAdmin": false,
@@ -58,7 +58,7 @@
   },
   {
     "id": "5",
-    "userName": "kietkiet",
+    "username": "kietkiet",
     "userFirstName": "Kiệt",
     "userLastName": "HCM",
     "isAdmin": false,
